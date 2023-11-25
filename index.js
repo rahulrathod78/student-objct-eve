@@ -47,7 +47,7 @@ const studentDetails = {
     }
 };
 
-const huzaifa = new Student(
+const rahul = new Student(
     studentDetails.name,
     studentDetails.roll_no,
     studentDetails.class,
@@ -55,5 +55,5 @@ const huzaifa = new Student(
     studentDetails.marks_of_5_subjects
 );
 
-huzaifa.printTop3Subjects();
-huzaifa.printReportCard();
+rahul.printTop3Subjects();
+rahul.printReportCard();
